@@ -1,16 +1,15 @@
-# project2
+# Hình ảnh kết quả
 
-A new Flutter project.
+![alt text](image-1.png)
 
-## Getting Started
+# Khởi tạo list ảnh
 
-This project is a starting point for a Flutter application.
+![alt text](image-2.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Hàm khởi tạo trạng thái
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![alt text](image-3.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Hàm check 2 ảnh có trùng nhau hay không,nếu có thì để trạng thái của flipped là true,nếu không thì để trạng thái của temporaryFlipped bằng false và reset trạng thái của 2 index về null
+
+![alt text](image-4.png)
