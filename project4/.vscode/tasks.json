@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Shared Library",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-shared",
+        "-o",
+        "${workspaceFolder}/libquadratic_solver.dll", // Đầu ra trên Linux/MacOS
+        "-fPIC",
+        "${workspaceFolder}/quadratic_solver.c",
+        "-lm"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Biên dịch thư viện chia sẻ"
+    }
+  ]
+}
